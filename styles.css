@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  
+  .content {
+    max-width: 800px;
+    width: 100%;
+    padding: 40px;
+    margin: auto;
+    border-radius: 8px;
+    
+  }
+  
+  body {
+    background-color: #B4B8AB;
+    font-family: Tahoma;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+   h1 {
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+  
+      p {
+        text-align: center;
+        font-size: 16px;
+        margin-bottom: 20px;
+      }
+  
+  form {
+      margin: 0 auto;
+      max-width: 500px;
+      min-width: 300px;
+      width: 60vw;
+      font-size: 1.2em;
+  }
+  
+  label {
+      display:block;
+      margin: 0.5em 0;
+      
+    }
+  
+  fieldset {
+      border: none;
+      border-bottom: 3.5px solid #284B63
+    }

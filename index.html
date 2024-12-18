@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <title>How many languages can you speak?</title>
+  <body>
+    <div class='content'>
+    <h1 id='title'>How many languages can you speak?</h1>
+    <p id='description'>Language is a bridge that connects people across cultures, regions, and communities. This survey aims to explore the linguistic diversity of individuals by learning how many languages you can speak and your experiences with them. Whether you're fluent in multiple languages or just starting to learn a new one, we’d love to hear about your journey. Your responses will help us gain insights into the multilingual skills and interests of people from various backgrounds.</p>
+    <form id='survey-form'>
+      <fieldset><!--The first section of a fieldset-->
+        <label id='name-label' for='name'>Enter Your Name<input id='name' type='text' required placeholder='Your name'/>
+        <label id ='email-label' for='email'>Enter Your Email<input id='email' type='email' required placeholder='Your email'/>
+        <label id='number-label' for='number'>Enter Your Age<input id='number' type='number' min='12' max='60' required placeholder='18'/>
+     </fieldset>
+      <fieldset><!--The second section of a fieldsets-->
+      <label for='dropdown'>What is Your Native Language?</label>
+      <select id='dropdown' required>
+    <option value="" disabled selected>Select a language</option>
+    <option value="english">English</option>
+    <option value="english">Russian</option>
+    <option value="english">Chinese</option>
+    <option value="english">Japanese</option>
+    <option value="english">Turkish</option>
+      </select>
+      <fieldset>
+  <!-- The third section of a fieldset -->
+  <label>Do you like learning languages?</label>  
+  <label for="yes">
+    <input id="yes" name="language_preference" value="yes" type="radio"> Yes
+  </label>
+  <label for="no">
+    <input id="no" name="language_preference" value="no" type="radio"> No
+  </label>
+  <label for="dont-know">
+    <input id="dont-know" name="language_preference" value="dont-know" type="radio"> I don't know
+  </label>
+</fieldset>
+        <fieldset><!--The forth section of a fieldsets-->
+        <label>Why do you study languages?</label>
+        <label for='checkbox'><input name='work' value='work' type='checkbox' checked>Work</label>
+        <label for='checkbox'><input name='fun' value='fun' type='checkbox'>Fun
+        <label for="bio">Other:
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I like it because..."></textarea>
+        </label>
+          </fieldset>
+          <input id='submit' type='submit'>
+      </form>
+      </div>
+      </body>
+</html>
